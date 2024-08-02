@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.navbar-light-mode {
+  background-color: #f8f9fa;
+}
+.navbar-dark-mode {
+  background-color: #333;
+}
+.navbar-dark-mode .nav-link,
+.navbar-dark-mode .navbar-brand {
+  color: #ffffff !important;
+}
+/* Toggle Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 20px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+input:checked + .slider:before {
+  transform: translateX(14px);
+}
+.slider.round {
+  border-radius: 20px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+.navbar-nav {
+  margin-right: auto;
+}
+/* Dark mode styles */
+  .navbar-dark-mode .navbar-toggler {
+  border-color: #ffffff; 
+  background-color: #d3d2d2b0; 
+} 
+
+/* .navbar-dark-mode .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;base64,....'); 
+}  */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.container p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.container p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+.bgimg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-image: url('src/bgimg.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* Adjust opacity as needed */
+  z-index: -1; /* Behind other content */
+}
+
+.pjspace1{
+  margin-top: 25px;
+}
+.pjtext{
+  font-weight: 800;
+  font-size: 25px;
+}

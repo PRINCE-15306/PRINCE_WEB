@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 body.dark-mode {
-  background-color: #121212;
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #252323;
+  color: #f0e8e8;
+  /* font-family: 'Montserrat', sans-serif; */
 
+}
+.indexbody{
+
+  background-color: #000000;
+  color:white;
 }
 .navbar-light-mode {
   background-color: #f8f9fa;
@@ -126,8 +131,8 @@ input:checked + .slider:before {
   background-image: url('src/bgimg2.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.5; /* Adjust opacity as needed */
-  z-index: -1; /* Behind other content */
+  opacity: 1; /* Adjust opacity as needed */
+  z-index: -2; /* Behind other content */
 }
 
 .pjspace1{
@@ -147,10 +152,9 @@ html {
 } 
 
 body {
- 
-  font-family: 'Montserrat', sans-serif;
 
-  
+font-family: 'Montserrat', sans-serif;
+
 }
 
 .header2 {

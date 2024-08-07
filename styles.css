@@ -102,7 +102,7 @@ input:checked + .slider:before {
 }
 .container p span.typed-text {
   font-weight: normal;
-  color: #dd7732;
+  color: #00fceb;
 }
 .container p span.cursor {
   display: inline-block;

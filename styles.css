@@ -138,9 +138,9 @@ input:checked + .slider:before {
   font-size: 25px;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 html {
   font-size: 14px;
@@ -171,8 +171,8 @@ body {
 .timeline {
   display: flex;
   flex-direction: column;
-  margin: 20px auto;
-  position: relative;
+  margin: 10px auto;
+  position: sticky;
 }
 .timeline__event {
   margin-bottom: 20px;
@@ -403,7 +403,4 @@ body {
   100% {
     left: 100%;
   }
-}
-.aboutbody{
-  height: fit-content;
 }

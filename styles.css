@@ -476,12 +476,14 @@ body {
 }
 
 .timeline-event-copy h4 {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  font-weight: 800;
   margin-bottom: 1.2em;
 }
 
 .timeline-event-copy strong {
-  font-weight: 700;
+  font-size: 1.3em;
+  font-weight: 800;
 }
 
 .timeline-event-copy p:not(.timeline-event-thumbnail) {

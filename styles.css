@@ -147,7 +147,7 @@ input:checked + .slider:before {
 html {
   font-size: 14px;
 } 
-
+/*
 body {
 
 font-family: 'Montserrat', sans-serif;
@@ -404,7 +404,7 @@ font-family: 'Montserrat', sans-serif;
   100% {
     left: 100%;
   }
-}
+}*/
 
 
 
